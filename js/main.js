@@ -3,7 +3,10 @@
         $('#myCarousel').carousel({
                 interval: 5000
         });
- 
+             $('.imagem1 ').fadeIn();
+             $('.imagem1 ').fadeIn("slow");
+             $('.imagem1 ').fadeIn(3000);
+         
         //Handles the carousel thumbnails
         $('[id^=carousel-selector-]').click(function () {
         var id_selector = $(this).attr("id");
