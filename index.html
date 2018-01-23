@@ -97,8 +97,10 @@
         <!-- Introduction Row -->
         <div class="row">
             <div class="col-lg-12">
+
                 <h1 class="page-header">Um pouco sobre mim
                     <small>Seja bem vindo!</small>
+                     <a id="img-topo" href="#" ><img class="img-circle img-responsive" src="icons/livro.ico" alt="" ></a>
                 </h1>
             </div>
         </div>
@@ -110,10 +112,11 @@
             </div>
             <div class="col-lg-4 col-sm-6 text-center imagem1">
                <a href="livros.html"><img class="img-circle img-responsive img-center" src="img/livro.jpg" alt=""></a>
-               <h3>Livros
-                <small>Abra sua mente</small>
-            </h3>
-            <p>O processo de adquirir conhecimento nunca foi fácil.Entao deixo aqui alguns das minhas fontes de inspiração que me fez ganhar fôlego nessa grande jornada. </p>
+               <a  href="#" class="titulo" data-toggle="popover" data-trigger="hover"  data-content="<p >O processo de adquirir conhecimento nunca foi fácil.Aqui tem algumas das minhas fontes de inspiração que me fez ganhar fôlego nessa grande jornada.</p> ">Livros
+ 
+            </a>
+            <div class="col-md-12"></div>
+            <h5>Minhas aventuras por conhecimento</h5>
         </div>
         <div class="col-lg-4 col-sm-6 text-center imagem1">
             <a href="http://lattes.cnpq.br/3127448050739421" target="_blank"><img class="img-circle img-responsive img-center" src="img/curriculo.jpg" alt=""></a>
@@ -124,13 +127,21 @@
         </div>
         <div class="col-lg-4 col-sm-6 text-center imagem1">
             <a href="ensino.html"><img class="img-circle img-responsive img-center"  src="img/ensino.jpg" alt=""></a>
-            <h3>Ensino
-                <small>Faço o que gosto</small>
-            </h3>
-            <p>Se ser um ponto da reta te motiva? continue. Em todas essas áreas tenho um grande entusiamo em deixa minha contribuição para o conhecimento.</p>
+
+            <a  href="#" class="titulo" data-toggle="popover" data-trigger="hover"  data-content="<p >Se ser um ponto da reta te motiva? continue. Em todas essas áreas tenho um grande entusiamo em deixa minha contribuição para o conhecimento.</p> ">Ensino
+ 
+            </a>
+            <div class="col-md-12"></div>
+            <h5>Faço o que gosto</h5>
+
         </div>
         <div class="col-lg-4 col-sm-6 text-center imagem1">
             <a href="projeto1.html"><img class="img-circle img-responsive img-center" src="img/projeto.jpg" alt=""></a>
+            <a  href="#" class="titulo" data-toggle="popover" data-trigger="hover"  data-content="<p >TesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeeeTesteeee.</p> ">Projeto 1%
+            </a>
+            <div class="col-md-12"></div>
+            <h5>Rascunho</h5>
+
             <h3>Projeto 1%
                 <small>Todo Dia</small>
             </h3>
@@ -214,6 +225,16 @@ cellpadding="0" cellspacing="0">
         <script src="js/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover(
+                    {
+                        html:true,
+                        template:'<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content " style="width:300px;" ></div></div>'
+
+                    });   
+            });
+        </script>
 
     </body>
 
