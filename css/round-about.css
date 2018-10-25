@@ -40,7 +40,6 @@ footer {
  li a#img-topo{
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 a.titulo{
@@ -52,3 +51,9 @@ a.titulo{
     line-height: 1.1;
 
 }
+
+.row-artigo {
+    font-size: 24px;
+    text-decoration: blue !important;
+}
+
