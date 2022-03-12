@@ -2,10 +2,21 @@ body{
     font-family: 'Montserrat',sans-serif;
     background: #cac8c8;
 }
-p{
-    font-size: 20px;
+
+#logo{
+    size: 20px;
+    border-radius: 706px;
 }
+
+
+}
+
 
 h1 {
     text-align: center;
 }
+
+p{
+    font-size: 20px;
+}
+
