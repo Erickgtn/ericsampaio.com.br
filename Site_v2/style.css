@@ -1,18 +1,23 @@
 body{
     font-family: 'Montserrat',sans-serif;
-    background: #cac8c8;
+    background: #c0dec4;
 }
 
 #logo{
-    size: 20px;
-    border-radius: 706px;
+    size: 5px;
+    width: 25%;
+    margin: 15px;
+
 }
 
 h1 {
     text-align: center;
 }
 
-p{
+#resumo{
     font-size: 20px;
+    text-align: center;
 }
-
+p strong{
+    color: red;
+}
