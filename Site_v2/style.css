@@ -9,7 +9,14 @@ body{
     margin: 15px;
 
 }
-
+nav li{ /*Menu*/
+    display: inline;
+}
+nav a{
+    text-transform: uppercase; /*Transformar todo o texto e maiusculo*/
+    color: black;
+    font-weight: bold;
+}
 h1 {
     text-align: center;
 }
