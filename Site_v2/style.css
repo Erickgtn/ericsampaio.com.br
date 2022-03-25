@@ -2,9 +2,13 @@ body{
     font-family: 'Montserrat',sans-serif;
     background: #c0dec4;
 }
+#titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
 #logo{
     size: 5px;
-    width: 25%;
+    width: 20%;
     margin: 15px;
     display: inline;
 }
@@ -15,11 +19,11 @@ body{
     top: 0;
     right: 0;
     padding: 37px;
-    margin: 0 0.5%;
+    margin: 65px 0.5%;
     width: 636px;
-    border-color: red;
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color:#cccccc    
 }
 nav li{ /*Menu*/
     display: inline;
@@ -35,7 +39,10 @@ nav a{
 h1 {
     text-align: center;
 }
-
+nav a:hover{
+    color: rgb(7, 43, 121);
+    text-decoration: underline;
+}
 
 p strong{
     color: red;
